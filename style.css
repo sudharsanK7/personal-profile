@@ -1,0 +1,126 @@
+body {
+    color: black;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top {
+    background-color: aquamarine;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.Introduction h1 {
+    font-family: 'Sacramento', cursive;
+    color: darkgreen;
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2 {
+    color: darkgreen;
+    padding-bottom: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.middle {
+    margin: 100px 0px;
+}
+
+.profile img {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.gist {
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    border: dotted #8ebdbd 6pt;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin:100px auto 0 auto;
+    row-gap: 2rem;
+}
+
+.studygist{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.studygist h3 {
+    color: rgb(60, 133, 60);
+}
+
+.studygist p {
+    line-height: 2;  
+}
+
+
+.futbolgist{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.futbolgist h3 {
+    color: rgb(60, 133, 60);
+}
+
+.futbolgist p {
+    line-height: 2;  
+}
+
+.contact h2 {
+    color: darkgreen;
+}
+
+.contact h3{
+    color: rgb(60, 133, 60);
+}
+
+.contact p{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background-color: rgb(60, 133, 60);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottom {
+    background-color: aquamarine;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: darkgreen;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #0b5959;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
